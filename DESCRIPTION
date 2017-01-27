@@ -13,14 +13,42 @@ Depends:
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Remotes: curso-r/puBuild
+Remotes:
+    curso-r/puBuild,
+    abjur/abjData
 Imports:
     puBuild,
     tutorial,
     desc,
     httr,
     stringr,
-    devtools
+    devtools,
+    tidyr,
+    dplyr,
+    lubridate,
+    forcats,
+    purrr,
+    modelr,
+    caret,
+    randomForest,
+    xgboost,
+    broom,
+    ggplot2,
+    haven,
+    hms,
+    jsonlite,
+    magrittr,
+    readr,
+    readxl,
+    rvest,
+    tibble,
+    xml2,
+    knitr,
+    rmarkdown,
+    rstudioapi,
+    bitops,
+    abjutils,
+    abjData
 Suggests:
     testthat
 RoxygenNote: 5.0.1

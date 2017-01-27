@@ -14,3 +14,4 @@ pu_install_deps <- function(u_desc) {
   suppressMessages(utils::remove.packages(basename(power_ups)))
   invisible(TRUE)
 }
+
